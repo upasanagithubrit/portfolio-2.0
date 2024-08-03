@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="docTitle"></title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Header of the page -->
+    <header style="width: 100%;">
+        <div class="h">
+            <div class="navbar">
+                <div class="left_bar">
+                    <div class="one">
+                    </div>
+                    <div class="one">
+                    </div>
+                </div>
+                <div class="right_bar">
+                    <button id="contact_btn" onclick="download_resume()">Hire Me <img src="./images/person.svg" class="contact_img" alt="(::)"></button>
+                </div>
+                <div class="menu">
+                    <img onclick="showMenu()" class="menu_btn" src="./images/menu.svg" alt="Menu..">
+                </div>
+            </div>
+        </div>
+    
+         <div class="menu_header"> 
+            <span id="menu_part1_head">Navigation</span>
+            <div class="menu_fragments_part1">
+                <span class="part1_cont">
+                    <img class="part1_image" src="./images/house.svg" alt="(::)">
+                    <a class="anchor" href="#">Home</a> 
+                </span>
+    
+    
+                <span class="part1_cont">
+                    <img class="part1_image" src="./images/braces.svg" alt="(::)">
+                    <a class="anchor" href="https://github.com/upasanagithubrit">Snippets</a>
+                </span>
+    
+    
+                <span class="part1_cont">
+                    <img class="part1_image" src="./images/github.svg" alt="(::)">
+                    <a class="anchor" href="https://github.com/upasanagithubrit" target="_blank">GitHub</a>
+                </span>
+    
+                <span class="part1_cont">
+                    <img class="part1_image" src="./images/vercel.svg" alt="(::)">
+                    <a class="anchor" href="https://vercel.com/upasana-s-projects" target="_blank">Vercel</a>
+                </span>
+    
+                <!-- <span class="part1_cont">
+                    <img class="part1_image" src="./images/camera-reels.svg" alt="(::)">
+                    <a class="anchor" href="#">video resume</a>
+                </span> -->
+            </div>
+    
+            <span id="menu_part2_head">Contact Me</span>
+            <div class="menu_fragments_part2">
+    
+                <span class="part1_cont">
+                    <img class="part1_image" src="./images/linkedin.svg" alt="(::)">
+                    <a class="anchor" href="https://www.linkedin.com/in/upasana-chaudhary-10b21b1b8/" target="_blank">Linkedin</a>
+                </span>
+    
+    
+                <span class="part1_cont">
+                    <img class="part1_image" src="./images/mail.svg" alt="(::)">
+                    <a class="anchor" href="upasnachoudhary216@gmail.com" target="_blank">upasnachoudhary216
+                        @gmail.com</a>
+                </span>
+    
+                <span class="part1_cont">
+                    <img class="part1_image" src="./images/phone.svg" alt="(::)">
+                    <a class="anchor"  target="_blank">9548230488</a>
+                </span>
+    
+    
+            </div>
+        </div>
+    </header>
+     
+
+
+    <!-- Left side nav -->
+    <div class="left_nav">
+        <div class="fragments_part1">
+            <span class="part1_cont">
+                <img class="part1_image" src="./images/house.svg" alt="(::)">
+                <a class="anchor" href="#">Home</a> 
+            </span>
+
+
+            <span class="part1_cont">
+                <img class="part1_image" src="./images/braces.svg" alt="(::)">
+                <a class="anchor" href="https://github.com/upasanagithubrit">Snippets</a>
+            </span>
+
+
+            <span class="part1_cont">
+                <img class="part1_image" src="./images/github.svg" alt="(::)">
+                <a class="anchor" href="https://github.com/upasanagithubrit" target="_blank">GitHub</a>
+            </span>
+
+            <span class="part1_cont">
+                <img class="part1_image" src="./images/vercel.svg" alt="(::)">
+                <a class="anchor" href="https://vercel.com/upasana-s-projects" target="_blank">Vercel</a>
+            </span>
+
+            <!-- <span class="part1_cont">
+                <img class="part1_image" src="./images/camera-reels.svg" alt="(::)">
+                <a class="anchor" href="#">video resume</a>
+            </span> -->
+        </div>
+
+        <span id="part2_head">Contact</span>
+
+        <div class="fragments_part2">
+
+            <span class="part1_cont">
+                <img class="part1_image" src="./images/linkedin.svg" alt="(::)">
+                <a class="anchor" href="https://www.linkedin.com/in/upasana-chaudhary-10b21b1b8/" target="_blank">Linkedin</a>
+            </span>
+
+
+            <span class="part1_cont">
+                <img class="part1_image" src="./images/mail.svg" alt="(::)">
+                <a class="anchor" href="upasnachoudhary216@gmail.com" target="_blank">upasnachoudhary216
+                    @gmail.com</a>
+            </span>
+
+            <span class="part1_cont">
+                <img class="part1_image" src="./images/phone.svg" alt="(::)">
+                <a class="anchor"  target="_blank">9548230488</a>
+            </span>
+           
+
+            
+         
+        </div>
+    </div>
+    <!-- Profile comtainer -->
+    <div class="profile_container">
+        <div class="profile_section">
+            <div class="profile_content">
+                <div class="profile_img">
+                    <img class="profile_pic" src="./images/pic-image.png" height=90 width=90 alt="...">
+                </div>
+                <div class="profile_name">
+                    <span  id="naam">Upasana Chaudhary</span>
+                    <span class="name">@WebDev
+                       
+                    </span>
+                </div>
+            </div>
+                <div class="instagram_btn">
+                        <button class="insta_btn" onclick="follow_on_linkedln()"><img src="./images/linkedin.svg" alt="..."> Follow me on Linkedln</button>
+                </div>
+        </div>
+    </div>
+    <!-- Ṃain contenet of the page (projects component) -->
+    <main class="main">
+        <div class="projects_container">
+            <h3 id="project_name">Projects</h3>
+            <div class="project_items">
+                
+                        <div class="card" id="Razorpay-clone" onclick="open_projects(this.id)">
+                            <div class="card_img_container">
+                                <img class="card_img" src="./images/razor.jfif" alt="Loading...">
+                            </div>
+                            <div class="card_content">
+                                <h3 class="project_name">Razorpay Design</h3>
+                                <span class="project_requ">Html,Tailwind, Vs Code</span>
+                            </div>
+                        </div>
+         
+                
+               
+                    <div class="card" id="blog-web" onclick="open_projects(this.id)">
+                        <div class="card_img_container">
+                            <img class="card_img" src="./images/blog.jfif" alt="Loading...">
+                        </div>
+                        <div class="card_content">
+                            <h3 class="project_name">Blog Website</h3>
+                            <span class="project_requ">React(routers,context api),Talwind,VsCode</span>
+                        </div>
+                    </div>
+     
+                        
+        
+                    <div class="card" id="e_comm" onclick="open_projects(this.id)">
+                        <div class="card_img_container">
+                            <img class="card_img" src="./images/ecommerce.jpeg" alt="Loading...">
+                        </div>
+                        <div class="card_content">
+                            <h3 class="project_name">E-Comm_Kart</h3>
+                            <span class="project_requ">React(Redux),Tailwind,VsCode</span>
+                        </div>
+                    </div>
+        
+                    <div class="card" id="bubble-game" onclick="open_projects(this.id)">
+                        <div class="card_img_container">
+                            <img class="card_img" src="./images/game.jfif" alt="Loading...">
+                        </div>
+                        <div class="card_content">
+                            <h3 class="project_name">Bubble Game</h3>
+                            <span class="project_requ">Html, Css, Javascript</span>
+                        </div>
+                    </div> 
+<!-- 
+                    <div class="card" id="videoTranscoder" onclick="open_projects(this.id)">
+                        <div class="card_img_container">
+                            <img style="object-fit: contain;" class="card_img" src="./images/videoTranscoder.png" alt="Loading...">
+                        </div>
+                        <div class="card_content">
+                            <h3 class="project_name">Video Transcoder</h3>
+                            <span class="project_requ">React, Tailwind Css, Node JS, Express JS</span>
+                        </div>
+                    </div> -->
+
+                    <!-- <div class="card" id="RealEstate" onclick="open_projects(this.id)">
+                        <div class="card_img_container">
+                            <img style="object-fit: cover;" class="card_img" src="./images/RealEstate.jpeg" alt="Loading...">
+                        </div>
+                        <div class="card_content">
+                            <h3 class="project_name">Real Estate</h3>
+                            <span class="project_requ">React, Tailwind Css, Node JS, Express JS, Material UI</span>
+                        </div>
+                    </div>  -->
+                    
+                  
+            </div>
+            
+        </div>
+        <!-- Skills container -->
+        <div class="skills_container">
+            <div>
+                <h3 id="skills_heading">What I Know</h3>
+
+                <div class="skills_items">
+
+                    <div class="skills_card">
+                        <h3 class="skills_tagname">Frontend</h3>
+                        <div class="items">
+                            <span id="br-yellow">Html</span>
+                            <span id="br-yellow">Css</span>
+                            <span id="br-yellow">JavaScript</span>
+                            <span id="br-yellow">Bootstrap</span>
+                            <span id="br-red">React JS</span>
+                            <span id="br-blue">Tailwind css</span>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="skills_card">
+                        <h3 class="skills_tagname">Backend</h3>
+                        <div class="items">
+                            <span id="br-blue">Node JS</span>
+                            <span id="br-red">Express JS</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skills_card">
+                        <h3 class="skills_tagname">Database</h3>
+                        <div class="items">
+                           
+                            <span id="br-green">MongoDB</span>
+                        </div>
+                    </div>
+                    <div class="skills_card">
+                        <h3 class="skills_tagname">Devops</h3>
+                        <div class="items">
+                            <span id="br-yellow">Git & Github</span>
+                          
+                            
+                        </div>
+                    </div>
+                </div> 
+            </div>   
+            <div class="more-projects_container">
+                <h3 id="more_pro_head">More projects</h3>
+                <div class="list_more_pro">
+                    <div class="list_item" id="todo" onclick="open_projects(this.id)">
+                        
+                        <img src="./images/check2-circle.svg" alt="...">
+                        
+                        <div class="list_item_details">
+                            <span class="list_name">To-Do List App</span>
+                            <span class="list_desc">Html, Css, Javascript</span>
+                        </div>
+                        <img src="./images/arrow-right-circle-fill.svg" alt="...">
+                    </div>
+                    <div class="list_item" id="temp_cnvrt" onclick="open_projects(this.id)">
+                        
+                        <img src="./images/thermometer.svg" alt="...">
+                        
+                        <div class="list_item_details">
+                            <span class="list_name">Temperature Converter</span>
+                            <span class="list_desc">Html, Css, Javascript</span>
+                        </div>
+                        <img src="./images/arrow-right-circle-fill.svg" alt="...">
+                    </div>
+                    <div class="list_item" id="qr-code" onclick="open_projects(this.id)">
+                        
+                        <img src="./images/grid-3x3.svg" alt="...">
+                        
+                        <div class="list_item_details">
+                            <span class="list_name">Qr Code Generator</span>
+                            <span class="list_desc">Html, Css, Javascript</span>
+                        </div>
+                        <img src="./images/arrow-right-circle-fill.svg" alt="...">
+                    </div>
+
+                    <div class="list_item" id="github" onclick="open_platforms(this.id)">
+
+                        <img src="./images/github.svg" alt="...">
+                        
+                        <div class="list_item_details">
+                            <span class="list_name">See Github For more Projects....</span>
+                            <span class="list_desc"></span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>    
+   
+        </div>
+
+
+        <!-- Competetive coding platforms -->
+        <div class="other_profiles">
+            <h3 id="other">Other Platforms & Resume</h3>
+            <div class="other_container">
+
+                <!-- <div class="card_other" id="leet_code" onclick="open_platforms(this.id)">
+                    <div class="other_card_img">
+                        <img src="./images/leetcode.svg" alt="...">
+                    </div>
+                    <div class="other_title">
+                        <span class="platform">Leetcode</span>
+                    </div>
+                </div> -->
+                
+                <div class="card_other" id="gfg" onclick="open_platforms(this.id)">
+                    <div class="other_card_img">
+                        <img src="./images/gfg.svg  " alt="...">
+                    </div>
+                    <div class="other_title">
+                        <span class="platform">Geeks For Geeks</span>
+                    </div>
+                </div>
+
+                <div class="card_other" id="hrank" onclick="open_platforms(this.id)">
+                    <div class="other_card_img">
+                        <img src="./images/codingninja.jfif" alt="...">
+                    </div>
+                    <div class="other_title">
+                        <span class="platform">Coding Ninjas</span>
+                    </div>
+                </div>
+
+                <div class="card_other" id="resume">
+                    <div class="other_card_img">
+                        <img class="resume_img" src="./images/newspaper.svg" alt="...Resume">
+                    </div>
+                    <div class="download_btn">
+                        <button  onclick="download_resume()" class="resume_btn">Download Resume</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </main>
+
+</body>
+<script src="./js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+<script>
+    (function () {
+        const locomotiveScroll = new LocomotiveScroll();
+    })();
+</script>
+
+</html>
