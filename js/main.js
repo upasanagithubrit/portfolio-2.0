@@ -36,7 +36,7 @@ function open_projects(project_id){
         window.open("https://to-do-list-beta-green.vercel.app/","_blank")
     }
     else if(project_id == "bubble-game"){
-        window.open("file-frontend-seven.vercel.app","_blank")
+        window.open("https://file-frontend-seven.vercel.app","_blank")
      }
          else if(project_id == "image-generator"){
         window.open("https://image-frontend-alpha.vercel.app/","_blank")
