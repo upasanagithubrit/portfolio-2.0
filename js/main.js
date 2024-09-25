@@ -18,7 +18,7 @@ function open_projects(project_id){
         window.open("https://razor-pay-clone-tan.vercel.app/","_blank")
     }
     else if(project_id =="blog-web"){
-        window.open("https://react-blog-website-kappa.vercel.app/","_blank")
+        window.open("https://upasanagithubrit.github.io/upasana.github.io-it-website/","_blank")
     }
     // else if(project_id == "calc"){
     //     window.open("https://github.com/1234vishalsharma/Oasis-Infobyte/tree/main/My_calculator","_blank")
@@ -36,7 +36,10 @@ function open_projects(project_id){
         window.open("https://to-do-list-beta-green.vercel.app/","_blank")
     }
     else if(project_id == "bubble-game"){
-        window.open("https://upasanagithubrit.github.io/upasana.github.io-bubblegame/","_blank")
+        window.open("file-frontend-seven.vercel.app","_blank")
+     }
+         else if(project_id == "image-generator"){
+        window.open("https://image-frontend-alpha.vercel.app/","_blank")
      }
     // else if(project_id == 'videoTranscoder'){
     //     window.open("https://transcoder.vercel.app/" , "_blank");
